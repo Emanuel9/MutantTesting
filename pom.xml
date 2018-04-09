@@ -38,6 +38,12 @@
           <targetTests>
             <param>com.fmi.tv.tests.*</param>
           </targetTests>
+          <mutators>
+            <mutator>CONSTRUCTOR_CALLS</mutator>
+            <mutator>VOID_METHOD_CALLS</mutator>
+            <mutator>RETURN_VALS</mutator>
+            <mutator>NON_VOID_METHOD_CALLS</mutator>
+          </mutators>
         </configuration>
       </plugin>
     </plugins>
